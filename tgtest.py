@@ -4,9 +4,9 @@ from telegram import Update, ReplyKeyboardMarkup
 from telegram.ext import Application, CommandHandler, MessageHandler, filters, CallbackContext
 from datetime import datetime, timedelta
 
-TOKEN = '7915369739:AAHiRsk3pCPC58s2ARFGkk3NLoGNSbFH034'
-SUPABASE_URL = "https://ogqxausanugkdarjnssa.supabase.co"
-SUPABASE_API_KEY = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6Im9ncXhhdXNhbnVna2Rhcmpuc3NhIiwicm9sZSI6ImFub24iLCJpYXQiOjE3MzIxMjM0NzEsImV4cCI6MjA0NzY5OTQ3MX0.yxRkpS80-EGGoh2IFDnzdJV--_j0p7Yez_RV7lXAtpw"
+TOKEN = ''
+SUPABASE_URL = ''
+SUPABASE_API_KEY = ''
 
 
 supabase = create_client(SUPABASE_URL, SUPABASE_API_KEY)
